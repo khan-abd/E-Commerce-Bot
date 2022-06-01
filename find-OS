@@ -1,0 +1,10 @@
+#To find the OS of user
+
+from platform import *
+if system()=='Windows':
+    os='win'
+elif system()=='Darwin':
+    os='mac'
+    
+    
+    
