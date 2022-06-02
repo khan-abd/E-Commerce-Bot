@@ -5,6 +5,6 @@ if system()=='Windows':
     os='win'
 elif system()=='Darwin':
     os='mac'
-    
-    
+   
+print(os)
     
