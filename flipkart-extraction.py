@@ -16,13 +16,13 @@ r= requests.get(url, headers=h)
 soup=BeautifulSoup(r.content, 'html.parser')
 
 #name
-prodname=soup.find('a', class_="_4rR01T")
+prodname=soup.find('div', attrs={'class' :"_4rR01T"} )
 print()
-
+print(prodname.text, "(Flipkart Exclusive)")
 
 
 #price
-oprice=soup.find('div', class_="_3I9_wc _27UcVY")
+oprice=soup.find('div', classprint(prodname.text, "(Flipkart Exclusive)")_="_3I9_wc _27UcVY")
 price=soup.find('div', class_="_30jeq3 _1_WHN1")
 
 def rep(a):
