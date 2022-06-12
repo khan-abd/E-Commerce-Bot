@@ -137,8 +137,8 @@ htmla = da.to_html()
 htmlf = df.to_html()
 
 #write html to file
-text_file = open("index.html", "w")
-text_file.write(htmla)
-text_file.write(htmlf)
-text_file.close()
+#text_file = open("index.html", "w")
+with open('index.html',"w", encoding="utf-8") as text_file:
+    text_file.write(htmla)
+    text_file.write(htmlf)
 print("Done.")
