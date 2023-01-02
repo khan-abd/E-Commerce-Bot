@@ -45,7 +45,7 @@ for i in prodname:
     ANames.append(i.text)
 print(ANames[2:5])         
 
-#Amazon always displays 2 sponsored prodducts initially rather than actual product, so we start from 2nd index
+#Amazon always displays 2 sponsored products initially rather than actual product, so we start from 2nd index
 
 #Old Prices
 oprice=soup.find_all('span', class_="a-price a-text-price") 
