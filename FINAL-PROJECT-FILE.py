@@ -63,7 +63,7 @@ for a in AOld_Prices[2:5]:
 	rep(a,A_olist)
 print(A_olist)
 
-#In AOldprices, the value of the old price is repeted twice due to a bug in the website
+#In AOldprices, the value of the old price is repeated twice due to a bug in the website
 #We fixed that bug using the rep() function and print old prices through A_olist
 
 #New Prices
